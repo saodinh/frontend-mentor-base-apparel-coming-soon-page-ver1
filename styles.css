@@ -107,7 +107,11 @@ img {
     padding: 1.2rem 2rem;
     width: 100%;
     border-radius: 999px;
-    border: 2px solid var(--clr-red-400);
+    border: 1px solid var(--clr-red-400);
+}
+
+.email-input:focus {
+    box-shadow: 10px 10px 20px var(--clr-red-400);
     outline: none;
 }
 
@@ -126,6 +130,7 @@ img {
     right: 0;
     padding: 1.2rem 3rem;
     background: var(--gradient-pink);
+    box-shadow: 5px 10px 10px hsl(0, 80%, 86%);
     border-radius: 999px;
     border: 0;
     cursor: pointer;
@@ -134,7 +139,11 @@ img {
 .submit-btn:hover,
 .submit-btn:focus {
     background: hsl(0, 80%, 86%);
-    /* box-shadow: 5px 10px 10px hsl(0, 80%, 50%); */
+}
+
+.submit-btn:focus {
+    outline: none;
+    box-shadow: 10px 10px 20px var(--clr-red-400);
 }
 
 .error-message {
