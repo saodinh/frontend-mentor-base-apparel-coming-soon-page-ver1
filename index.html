@@ -26,10 +26,10 @@
             </div>
         </header>
 
-        <section class="hero">
+        <div class="hero">
             <img class="hero-mobile" src="./images/hero-mobile.jpg" alt="Some girl" />
             <img class="hero-desktop" src="./images/hero-desktop.jpg" alt="Some girl" />
-        </section>
+        </div>
 
         <main class="main">
             <div class="main-container">
@@ -40,7 +40,14 @@
                 </p>
                 <form class="form" action="#">
                     <div class="email-input-container">
-                        <input class="email-input" type="email" name="email" placeholder="Email Address" id="" />
+                        <input
+                            id="email"
+                            class="email-input"
+                            type="email"
+                            name="email"
+                            placeholder="Email Address"
+                            id=""
+                        />
                         <img class="error-icon" src="/images/icon-error.svg" alt="" />
                         <button type="submit" class="submit-btn"><img src="./images/icon-arrow.svg" alt="" /></button>
                         <p class="error-message">Please provide a valid email</p>

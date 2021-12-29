@@ -1,4 +1,4 @@
-const emailInput = document.querySelector(".email-input");
+const emailInput = document.querySelector("#email");
 const form = document.querySelector(".form");
 
 const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
